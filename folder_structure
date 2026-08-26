@@ -1,0 +1,75 @@
+polyguide/
+│
+├── README.md
+├── requirements.txt
+├── .env
+├── .gitignore
+│
+├── config.py
+├── models.py
+├── knowledge_base.py
+├── data_structures.py
+├── search_algorithms.py
+├── sorting_algorithms.py
+├── gemini_client.py
+├── chatbot_engine.py
+├── admin.py
+├── main.py              # CLI chatbot
+│
+├── gui/
+│   ├── __init__.py
+│   ├── gui_main.py      # Main Tkinter window (chat UI)
+│   ├── gui_admin.py     # Admin panel (FAQs, unresolved queue)
+│   └── gui_widgets.py   # Reusable widgets (chat box, input area, etc.)
+│
+├── knowledge_base/
+│   │
+│   ├── admission/
+│   │   ├── eligibility.md
+│   │   ├── application_process.md
+│   │   ├── required_documents.md
+│   │   ├── fee_structure_2026_27.md
+│   │   └── scholarships.md
+│   │
+│   ├── departments/
+│   │   ├── computer_engineering.md
+│   │   ├── ai_ml.md
+│   │   ├── electrical_engineering.md
+│   │   ├── mechanical_engineering.md
+│   │   └── civil_engineering.md
+│   │
+│   ├── student_services/
+│   │   ├── library.md
+│   │   ├── hostel.md
+│   │   ├── transport.md
+│   │   ├── examination_cell.md
+│   │   └── certificates.md
+│   │
+│   ├── contacts/
+│   │   └── official_contacts.md
+│   │
+│   └── policies/
+│       ├── anti_ragging.md
+│       └── grievance_process.md
+│
+├── data/
+│   ├── faqs.json
+│   ├── departments.json
+│   ├── contacts.json
+│   └── unanswered_queue.json
+│
+├── logs/
+│   └── app.log
+│
+├── tests/
+│   ├── __init__.py
+│   ├── test_search_algorithms.py
+│   ├── test_sorting_algorithms.py
+│   ├── test_data_structures.py
+│   └── test_chatbot_engine.py
+│
+└── docs/
+    ├── project_report.md
+    ├── ds_mapping.md          # How each DS is used in the project
+    ├── api_keys_setup.md      # How to set up Gemini API key
+    └── sample_faqs.json       # Example FAQ data for reference
